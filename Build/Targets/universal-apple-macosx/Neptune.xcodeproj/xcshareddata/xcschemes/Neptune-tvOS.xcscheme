@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9BAC488A1F307AA3003E8C55"
-               BuildableName = "Neptune-tvOS.framework"
+               BuildableName = "Neptune.framework"
                BlueprintName = "Neptune-tvOS"
                ReferencedContainer = "container:Neptune.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9BAC488A1F307AA3003E8C55"
-            BuildableName = "Neptune-tvOS.framework"
+            BuildableName = "Neptune.framework"
             BlueprintName = "Neptune-tvOS"
             ReferencedContainer = "container:Neptune.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9BAC488A1F307AA3003E8C55"
-            BuildableName = "Neptune-tvOS.framework"
+            BuildableName = "Neptune.framework"
             BlueprintName = "Neptune-tvOS"
             ReferencedContainer = "container:Neptune.xcodeproj">
          </BuildableReference>
