@@ -208,6 +208,32 @@
 		9BAC49011F307AA3003E8C55 /* NptTlsDefaultTrustAnchorsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D671ADB808A0041A617 /* NptTlsDefaultTrustAnchorsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BAC49021F307AA3003E8C55 /* NptTlsDefaultTrustAnchorsExtended.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D8D681ADB808A0041A617 /* NptTlsDefaultTrustAnchorsExtended.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BAC49031F307AA3003E8C55 /* NptZip.h in Headers */ = {isa = PBXBuildFile; fileRef = CA84EC7A0C7E5A7000CC9622 /* NptZip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD06DE21F32EAEE00B19F9D /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E840EC0145900A9040C /* version.h */; };
+		9BD06DE31F32EAEE00B19F9D /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E810EC0145900A9040C /* tls1.h */; };
+		9BD06DE41F32EAEE00B19F9D /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E7F0EC0145900A9040C /* ssl.h */; };
+		9BD06DE51F32EAEE00B19F9D /* crypto_misc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E770EC0145900A9040C /* crypto_misc.h */; };
+		9BD06DE61F32EAEE00B19F9D /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E6B0EC0145900A9040C /* crypto.h */; };
+		9BD06DE71F32EAEE00B19F9D /* cert.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E760EC0145900A9040C /* cert.h */; };
+		9BD06DE81F32EAEE00B19F9D /* bigint_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E6A0EC0145900A9040C /* bigint_impl.h */; };
+		9BD06DE91F32EAEE00B19F9D /* bigint.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A5E690EC0145900A9040C /* bigint.h */; };
+		9BD06DEA1F32EAEE00B19F9D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = CA87F23E1148401E0082AAFC /* config.h */; };
+		9BD06DEC1F32EAEE00B19F9D /* x509.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E850EC0145900A9040C /* x509.c */; };
+		9BD06DED1F32EAEE00B19F9D /* tls1_svr.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E830EC0145900A9040C /* tls1_svr.c */; };
+		9BD06DEE1F32EAEE00B19F9D /* tls1_clnt.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E820EC0145900A9040C /* tls1_clnt.c */; };
+		9BD06DEF1F32EAEE00B19F9D /* tls1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E800EC0145900A9040C /* tls1.c */; };
+		9BD06DF01F32EAEE00B19F9D /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E720EC0145900A9040C /* sha1.c */; };
+		9BD06DF11F32EAEE00B19F9D /* rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E710EC0145900A9040C /* rsa.c */; };
+		9BD06DF21F32EAEE00B19F9D /* rc4.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E700EC0145900A9040C /* rc4.c */; };
+		9BD06DF31F32EAEE00B19F9D /* p12.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E7D0EC0145900A9040C /* p12.c */; };
+		9BD06DF41F32EAEE00B19F9D /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E6F0EC0145900A9040C /* md5.c */; };
+		9BD06DF51F32EAEE00B19F9D /* md2.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E6E0EC0145900A9040C /* md2.c */; };
+		9BD06DF61F32EAEE00B19F9D /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E790EC0145900A9040C /* loader.c */; };
+		9BD06DF71F32EAEE00B19F9D /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E6D0EC0145900A9040C /* hmac.c */; };
+		9BD06DF81F32EAEE00B19F9D /* gen_cert.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E780EC0145900A9040C /* gen_cert.c */; };
+		9BD06DF91F32EAEE00B19F9D /* crypto_misc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E6C0EC0145900A9040C /* crypto_misc.c */; };
+		9BD06DFA1F32EAEE00B19F9D /* bigint.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E680EC0145900A9040C /* bigint.c */; };
+		9BD06DFB1F32EAEE00B19F9D /* asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E750EC0145900A9040C /* asn1.c */; };
+		9BD06DFC1F32EAEE00B19F9D /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1A5E670EC0145900A9040C /* aes.c */; };
 		CA057AB011BC27F200C90519 /* NptTlsDefaultTrustAnchorsBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA057AAE11BC27F200C90519 /* NptTlsDefaultTrustAnchorsBase.cpp */; };
 		CA057AB111BC27F200C90519 /* NptTlsDefaultTrustAnchorsExtended.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA057AAF11BC27F200C90519 /* NptTlsDefaultTrustAnchorsExtended.cpp */; };
 		CA197D250E1AE4400018E87C /* libNeptune.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F912B69F0B8EB1C700C1E90D /* libNeptune.a */; };
@@ -789,12 +815,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9BAC488C1F307AA3003E8C55 /* PBXContainerItemProxy */ = {
+		9BD06E041F32EB4300B19F9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F912B6870B8EB12700C1E90D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E4FCC83B1B1E3EB500CCA327;
-			remoteInfo = "axTLS-iOS";
+			remoteGlobalIDString = 9BD06DE01F32EAEE00B19F9D;
+			remoteInfo = "axTLS-tvOS";
 		};
 		CA197D230E1AE43B0018E87C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1500,6 +1526,7 @@
 
 /* Begin PBXFileReference section */
 		9BAC490A1F307AA3003E8C55 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD06E031F32EAEE00B19F9D /* libaxTLS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libaxTLS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA057AAE11BC27F200C90519 /* NptTlsDefaultTrustAnchorsBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NptTlsDefaultTrustAnchorsBase.cpp; sourceTree = "<group>"; };
 		CA057AAF11BC27F200C90519 /* NptTlsDefaultTrustAnchorsExtended.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NptTlsDefaultTrustAnchorsExtended.cpp; sourceTree = "<group>"; };
 		CA096EF10ED0DBCE00A5103D /* NptResults.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NptResults.cpp; sourceTree = "<group>"; };
@@ -1753,6 +1780,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		9BAC48D01F307AA3003E8C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD06DFD1F32EAEE00B19F9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2751,6 +2785,7 @@
 				E44E2B1B1AE75CD20092347B /* Neptune.framework */,
 				E4FCC85E1B1E3EB500CCA327 /* libaxTLS.a */,
 				9BAC490A1F307AA3003E8C55 /* Neptune.framework */,
+				9BD06E031F32EAEE00B19F9D /* libaxTLS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2964,6 +2999,22 @@
 				9BAC49011F307AA3003E8C55 /* NptTlsDefaultTrustAnchorsBase.h in Headers */,
 				9BAC49021F307AA3003E8C55 /* NptTlsDefaultTrustAnchorsExtended.h in Headers */,
 				9BAC49031F307AA3003E8C55 /* NptZip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD06DE11F32EAEE00B19F9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD06DE21F32EAEE00B19F9D /* version.h in Headers */,
+				9BD06DE31F32EAEE00B19F9D /* tls1.h in Headers */,
+				9BD06DE41F32EAEE00B19F9D /* ssl.h in Headers */,
+				9BD06DE51F32EAEE00B19F9D /* crypto_misc.h in Headers */,
+				9BD06DE61F32EAEE00B19F9D /* crypto.h in Headers */,
+				9BD06DE71F32EAEE00B19F9D /* cert.h in Headers */,
+				9BD06DE81F32EAEE00B19F9D /* bigint_impl.h in Headers */,
+				9BD06DE91F32EAEE00B19F9D /* bigint.h in Headers */,
+				9BD06DEA1F32EAEE00B19F9D /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3193,12 +3244,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				9BAC488B1F307AA3003E8C55 /* PBXTargetDependency */,
+				9BD06E051F32EB4300B19F9D /* PBXTargetDependency */,
 			);
 			name = "Neptune-tvOS";
 			productName = "Neptune-iOS";
 			productReference = 9BAC490A1F307AA3003E8C55 /* Neptune.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9BD06DE01F32EAEE00B19F9D /* axTLS-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD06DFE1F32EAEE00B19F9D /* Build configuration list for PBXNativeTarget "axTLS-tvOS" */;
+			buildPhases = (
+				9BD06DE11F32EAEE00B19F9D /* Headers */,
+				9BD06DEB1F32EAEE00B19F9D /* Sources */,
+				9BD06DFD1F32EAEE00B19F9D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "axTLS-tvOS";
+			productName = axTLS;
+			productReference = 9BD06E031F32EAEE00B19F9D /* libaxTLS.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		CA197D1D0E1AE4360018E87C /* QueueTest1 */ = {
 			isa = PBXNativeTarget;
@@ -3997,6 +4065,7 @@
 				E44E2BB81AE7691C0092347B /* Frameworks */,
 				CA1A5EA80EC0152A00A9040C /* axTLS */,
 				E4FCC83B1B1E3EB500CCA327 /* axTLS-iOS */,
+				9BD06DE01F32EAEE00B19F9D /* axTLS-tvOS */,
 				F912B69E0B8EB1C700C1E90D /* Neptune */,
 				E40D8B9B1AD86D3A0041A617 /* Neptune-iOS */,
 				9BAC488A1F307AA3003E8C55 /* Neptune-tvOS */,
@@ -4139,6 +4208,30 @@
 				9BAC48CD1F307AA3003E8C55 /* NptStdcDebug.cpp in Sources */,
 				9BAC48CE1F307AA3003E8C55 /* NptStdcEnvironment.cpp in Sources */,
 				9BAC48CF1F307AA3003E8C55 /* NptStdcFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD06DEB1F32EAEE00B19F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD06DEC1F32EAEE00B19F9D /* x509.c in Sources */,
+				9BD06DED1F32EAEE00B19F9D /* tls1_svr.c in Sources */,
+				9BD06DEE1F32EAEE00B19F9D /* tls1_clnt.c in Sources */,
+				9BD06DEF1F32EAEE00B19F9D /* tls1.c in Sources */,
+				9BD06DF01F32EAEE00B19F9D /* sha1.c in Sources */,
+				9BD06DF11F32EAEE00B19F9D /* rsa.c in Sources */,
+				9BD06DF21F32EAEE00B19F9D /* rc4.c in Sources */,
+				9BD06DF31F32EAEE00B19F9D /* p12.c in Sources */,
+				9BD06DF41F32EAEE00B19F9D /* md5.c in Sources */,
+				9BD06DF51F32EAEE00B19F9D /* md2.c in Sources */,
+				9BD06DF61F32EAEE00B19F9D /* loader.c in Sources */,
+				9BD06DF71F32EAEE00B19F9D /* hmac.c in Sources */,
+				9BD06DF81F32EAEE00B19F9D /* gen_cert.c in Sources */,
+				9BD06DF91F32EAEE00B19F9D /* crypto_misc.c in Sources */,
+				9BD06DFA1F32EAEE00B19F9D /* bigint.c in Sources */,
+				9BD06DFB1F32EAEE00B19F9D /* asn1.c in Sources */,
+				9BD06DFC1F32EAEE00B19F9D /* aes.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4724,10 +4817,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9BAC488B1F307AA3003E8C55 /* PBXTargetDependency */ = {
+		9BD06E051F32EB4300B19F9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4FCC83B1B1E3EB500CCA327 /* axTLS-iOS */;
-			targetProxy = 9BAC488C1F307AA3003E8C55 /* PBXContainerItemProxy */;
+			target = 9BD06DE01F32EAEE00B19F9D /* axTLS-tvOS */;
+			targetProxy = 9BD06E041F32EB4300B19F9D /* PBXContainerItemProxy */;
 		};
 		CA197D240E1AE43B0018E87C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5180,7 +5273,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.13;
+				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -5211,7 +5304,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -5234,7 +5327,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CURRENT_PROJECT_VERSION = 1.1.13;
+				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -5264,7 +5357,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -5289,7 +5382,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.1.13;
+				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -5319,7 +5412,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5344,7 +5437,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.1.13;
+				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -5373,10 +5466,110 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = "Release-NoCrypto";
+		};
+		9BD06DFF1F32EAEE00B19F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				PRODUCT_NAME = axTLS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		9BD06E001F32EAEE00B19F9D /* Debug-NoCrypto */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				PRODUCT_NAME = axTLS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WARNING_CFLAGS = "";
+			};
+			name = "Debug-NoCrypto";
+		};
+		9BD06E011F32EAEE00B19F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				PRODUCT_NAME = axTLS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		9BD06E021F32EAEE00B19F9D /* Release-NoCrypto */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				PRODUCT_NAME = axTLS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WARNING_CFLAGS = "";
 			};
 			name = "Release-NoCrypto";
 		};
@@ -8508,6 +8701,17 @@
 				9BAC49071F307AA3003E8C55 /* Debug-NoCrypto */,
 				9BAC49081F307AA3003E8C55 /* Release */,
 				9BAC49091F307AA3003E8C55 /* Release-NoCrypto */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD06DFE1F32EAEE00B19F9D /* Build configuration list for PBXNativeTarget "axTLS-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD06DFF1F32EAEE00B19F9D /* Debug */,
+				9BD06E001F32EAEE00B19F9D /* Debug-NoCrypto */,
+				9BD06E011F32EAEE00B19F9D /* Release */,
+				9BD06E021F32EAEE00B19F9D /* Release-NoCrypto */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
