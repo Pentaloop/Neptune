@@ -323,11 +323,19 @@ typedef long NPT_PointerLong;
 #endif
 
 #if !defined(NPT_fseek)
-#define NPT_fseek fseeko
+    #if defined(__LP64__)
+        #define NPT_fseek fseeko
+    #else
+        #define NPT_fseek fseek
+    #endif
 #endif
 
 #if !defined(NPT_ftell)
-#define NPT_ftell ftello
+    #if defined(__LP64__)
+        #define NPT_ftell ftello
+    #else
+        #define NPT_ftell ftell
+    #endif
 #endif
 
 #if !defined(NPT_stat)
